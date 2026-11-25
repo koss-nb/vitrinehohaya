@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply overflow-x-hidden;
+  }
+  img {
+    @apply max-w-full;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-[#0000FF] via-blue-600 to-sky-500 bg-clip-text text-transparent;
+  }
+}
+
