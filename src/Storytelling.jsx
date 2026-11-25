@@ -221,8 +221,8 @@ function Chapter({ chapter, index }) {
         <p className="mt-4 text-base leading-relaxed text-slate-600">{chapter.text}</p>
 
         <div
-          className={`mt-6 inline-block rounded-[10px] border-l-4 border-[#0000FF] bg-[#0000FF]/5 px-5 py-3 text-left ${
-            reverse ? 'lg:border-l-0 lg:border-r-4 lg:text-right' : ''
+          className={`mt-6 inline-block rounded-[10px] bg-[#0000FF]/5 px-5 py-3 text-left ${
+            reverse ? 'lg:text-right' : ''
           }`}
         >
           <p className="font-display text-base font-bold italic text-slate-800">{chapter.quote}</p>
